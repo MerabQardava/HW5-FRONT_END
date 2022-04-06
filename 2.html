@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .container{
+            width: 800px;
+            height: 900px;
+            border: 1px solid;
+            margin: auto;
+            padding-left: 30px;
+            box-sizing: border-box;
+
+        }
+
+        .text{
+            font-family: Arial;
+            font-weight: bold;
+            color: gray;
+        }
+
+
+        ::placeholder{
+            color: rgb(190, 190, 190);
+            font-size: 125%;
+        }
+
+        .input{
+            border: 0;
+            border-bottom: 1px solid lightgray;
+            width: 400px;
+            
+        }
+        
+        
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="font-family: Arial;font-weight: lighter;color: gray;">Basic inputs & Textarea</h1>
+        <br><br>
+        <div style="margin: auto;width: 700px;height: 500px;padding-top: 50px;">
+            <div style="padding-right: 90px;text-align: right;">
+                <form  action="">
+                    <span class="text">Name</span><input class="input" type="text" placeholder="Name" style="margin-left: 40px;color: green;">
+                    <br><br><br>
+                    <span class="text">Email</span><input class="input" type="text" placeholder="Email" style="margin-left: 40px;">
+                    <br><br><br>
+                    <span class="text">Password</span><input class="input" type="text" placeholder="Password" style="margin-left: 40px;">
+                    <br><br><br>
+                    <span class="text">Disabled Input</span>
+                    <input class="input" type="text" placeholder="Disabled Input" style="margin-left: 40px;box-sizing: border-box;">
+                    <br><br><br>
+                    <span class="text">Password</span><textarea class="input" name="" id="" cols="21" rows="5" style="margin-left: 40px;resize: none;float: right;"></textarea>
+
+                    
+    
+    
+                </form>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
